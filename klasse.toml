@@ -1,0 +1,10 @@
+schuelerliste = ["Schueler 1", "Schueler 2", "Schueler 3", "Schueler 4", "Schueler 5", "Schueler 6", "Schueler 7", "Schueler 8", "Schueler 9", "Schueler 10"]
+
+# Hier kannst du Einschränkungen definieren, wer nicht mit wem in eine Gruppe soll.
+# Beispiel: "Schueler A" = ["Schueler B", "Schueler C"]
+# Achte auf symmetrische Einschränkungen! Wenn "X" nicht mit "Y" soll, muss auch "Y" nicht mit "X" wollen.
+"Schueler 1" = ["Schueler 2", "Schueler 3"]
+"Schueler 2" = ["Schueler 1"]
+"Schueler 3" = ["Schueler 1"]
+
+# Bitte passe die 'schuelerliste' und 'Konflikte' oben an deine Bedürfnisse an.
